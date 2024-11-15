@@ -8,6 +8,20 @@ body {
     background-color: #f0f0f0;
 }
 
+#canvas-container {
+    width: vw;
+    height: vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  canvas {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+
 #sketch-container {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }

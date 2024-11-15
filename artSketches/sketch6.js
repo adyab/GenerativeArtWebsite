@@ -1,20 +1,14 @@
 // artSketches/sketch6.js
-//Mountains3
-
-import { createBackground } from '../utils.js';
 
 export function sketch6(p) {
-  let Background;
-
-  p.setup = () => {
-    p.createCanvas(1304, 984);
-    Background = createBackground(p);
-    Mountains3();
-  };
-
-  function Mountains3() {
-    console.log("Mountains3");
-    Background();
+    p.setup = () => {
+      p.createCanvas(1304, 984); // Adjust the canvas size as needed
+      p.background(255);
+      Mountains3();
+    };
+  
+    function Mountains3() {
+      console.log("Mountains3");
       let topx;
       let topy;
       let triHeight;
@@ -49,6 +43,12 @@ export function sketch6(p) {
           topx - triHeight / 2, topy + triHeight
         );
       }
+    }
+  
+    function Background() {
+      // Implement your Background function here if it does more than just setting a background color
+      // For example, if you want to add a gradient or any other effect
+      // If it's just setting a color, you can use p.background() directly in setup
     }
   }
   
