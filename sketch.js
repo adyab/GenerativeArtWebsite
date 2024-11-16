@@ -24,29 +24,29 @@ import { sketch23 } from './artSketches/sketch23.js';
 // ... import all your sketches
 
 const sketches = [
-  { sketch: sketch1, weight: 30 },  
+  { sketch: sketch1, weight: 40 },  
   { sketch: sketch2, weight: 0 },   
   { sketch: sketch3, weight: 0 },   // 3% chance
-  { sketch: sketch4, weight: 20 },   // 3% chance
-  { sketch: sketch5, weight: 30 },   // 3% chance
+  { sketch: sketch4, weight: 10 },   // 3% chance
+  { sketch: sketch5, weight: 40 },   // 3% chance
   { sketch: sketch6, weight: 0 },   // 3% chance
-  { sketch: sketch7, weight: 10 },   // 3% chance
-  { sketch: sketch8, weight: 10 },   // 3% chance
-  { sketch: sketch9, weight: 10 },   // 3% chance
-  { sketch: sketch10, weight: 10 },   
-  { sketch: sketch11, weight: 20 },  
-  { sketch: sketch12, weight: 8 },
-  { sketch: sketch13, weight: 25 },
-  { sketch: sketch14, weight: 5 },
-  { sketch: sketch15, weight: 10 },
-  { sketch: sketch16, weight: 8 },
-  { sketch: sketch17, weight: 30 },
-  { sketch: sketch18, weight: 30 },
+  { sketch: sketch7, weight: 1 },   // 3% chance
+  { sketch: sketch8, weight: 1 },   // 3% chance
+  { sketch: sketch9, weight: 1 },   // 3% chance
+  { sketch: sketch10, weight: 0 },   
+  { sketch: sketch11, weight: 10 },  
+  { sketch: sketch12, weight: 0 },
+  { sketch: sketch13, weight: 1 },
+  { sketch: sketch14, weight: 0 },
+  { sketch: sketch15, weight: 20 },
+  { sketch: sketch16, weight: 1 },
+  { sketch: sketch17, weight: 40 },
+  { sketch: sketch18, weight: 5 },
   { sketch: sketch19, weight: 10 },
-  { sketch: sketch20, weight: 15 },
-  { sketch: sketch21, weight: 20 },
-  { sketch: sketch22, weight: 25 },
-  { sketch: sketch23, weight: 30 },
+  { sketch: sketch20, weight: 5 },
+  { sketch: sketch21, weight: 5 },
+  { sketch: sketch22, weight: 10 },
+  { sketch: sketch23, weight: 40 },
 
   // ... add all your sketches with their respective weights
 ];
