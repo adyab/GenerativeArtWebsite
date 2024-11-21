@@ -6,7 +6,7 @@ export function createBackground(p) {
       
       let inverseQ = p.int(p.random(4));
       if (inverseQ > 1) {
-        p.background(255);
+        p.background(251,247,245);
         p.stroke(0);
       } else {
         p.background(0);
